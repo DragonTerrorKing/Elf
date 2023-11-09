@@ -1,10 +1,9 @@
 html {
     height: 100%;
     margin: 0;
-    background-image: url("../ressources/cu_soon_.jpg");
+    background-image: url("../ressources/cu_soonf_.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-color: #000; /* Remplacez #000 par la couleur de votre choix */
 }
 
 #floating-button {
@@ -34,4 +33,21 @@ html {
 
 .hidden {
     display: none;
+}
+
+@media screen and (min-width: 0px) and (max-width: 400px) and (min-height: 0px) and (min-height: 900px) {
+    html { 
+    height: 100%;
+    margin: 0;
+    background-image: url("../ressources/mo.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat; }
+}
+@media screen and (min-width: 401px) and (min-height: 901px) {
+    html { 
+    height: 100%;
+    margin: 0;
+    background-image: url("../ressources/cu_soon_.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat; }
 }
