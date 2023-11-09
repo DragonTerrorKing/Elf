@@ -35,16 +35,16 @@ html {
     display: none;
 }
 
-@media screen and (min-width: 0px) and (max-width: 400px) {
+@media screen and (min-width: 0px) and (max-width: 1000px) {
     html { 
 	    height: 100%;
 	    margin: 0;
-	    background-image: url("../ressources/mo.jpg");
+	    background-image: url("../ressources/mo.png");
 	    background-size: 100% 100%;
 	    background-repeat: no-repeat; 
     }
 }
-@media screen and (min-width: 401px) {
+@media screen and (min-width: 1001px) {
     html { 
 	    height: 100%;
 	    margin: 0;
